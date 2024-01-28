@@ -15,6 +15,7 @@
 		4325592A2B66BEF800CA7267 /* auto_shopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559292B66BEF800CA7267 /* auto_shopTests.swift */; };
 		432559342B66BEF800CA7267 /* auto_shopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559332B66BEF800CA7267 /* auto_shopUITests.swift */; };
 		432559362B66BEF800CA7267 /* auto_shopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559352B66BEF800CA7267 /* auto_shopUITestsLaunchTests.swift */; };
+		432559432B66C3F500CA7267 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 432559422B66C3F500CA7267 /* GoogleService-Info.plist */; };
 		AE349AB3984804200E7B807D /* Pods_auto_shop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2CB9BBA8B336009F18CFEE /* Pods_auto_shop.framework */; };
 		B37C7DEE16A5D50D0A94AB9F /* Pods_auto_shop_auto_shopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C740AA1E0661AF2E3E6412B /* Pods_auto_shop_auto_shopUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		4325592F2B66BEF800CA7267 /* auto-shopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "auto-shopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		432559332B66BEF800CA7267 /* auto_shopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_shopUITests.swift; sourceTree = "<group>"; };
 		432559352B66BEF800CA7267 /* auto_shopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_shopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		432559422B66C3F500CA7267 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../Auto_Shop/iOS/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5BB955C3A6ADE81E842E095F /* Pods-auto-shop-auto-shopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auto-shop-auto-shopUITests.release.xcconfig"; path = "Target Support Files/Pods-auto-shop-auto-shopUITests/Pods-auto-shop-auto-shopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		61D199E1A8D9640310C190F4 /* Pods-auto-shopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auto-shopTests.debug.xcconfig"; path = "Target Support Files/Pods-auto-shopTests/Pods-auto-shopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6461B2FDE5B5E399BFEDEFB7 /* Pods_auto_shopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_auto_shopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 		4325590C2B66BEF700CA7267 = {
 			isa = PBXGroup;
 			children = (
+				432559422B66C3F500CA7267 /* GoogleService-Info.plist */,
 				432559172B66BEF700CA7267 /* auto-shop */,
 				432559282B66BEF800CA7267 /* auto-shopTests */,
 				432559322B66BEF800CA7267 /* auto-shopUITests */,
@@ -278,6 +281,7 @@
 			files = (
 				432559202B66BEF800CA7267 /* Preview Assets.xcassets in Resources */,
 				4325591D2B66BEF800CA7267 /* Assets.xcassets in Resources */,
+				432559432B66C3F500CA7267 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
