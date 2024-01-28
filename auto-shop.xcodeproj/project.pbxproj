@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		1A7F7CE9ED500142EAE5D689 /* Pods_auto_shopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6461B2FDE5B5E399BFEDEFB7 /* Pods_auto_shopTests.framework */; };
 		432559192B66BEF700CA7267 /* auto_shopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559182B66BEF700CA7267 /* auto_shopApp.swift */; };
-		4325591B2B66BEF700CA7267 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4325591A2B66BEF700CA7267 /* ContentView.swift */; };
 		4325591D2B66BEF800CA7267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4325591C2B66BEF800CA7267 /* Assets.xcassets */; };
 		432559202B66BEF800CA7267 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4325591F2B66BEF800CA7267 /* Preview Assets.xcassets */; };
 		4325592A2B66BEF800CA7267 /* auto_shopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559292B66BEF800CA7267 /* auto_shopTests.swift */; };
 		432559342B66BEF800CA7267 /* auto_shopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559332B66BEF800CA7267 /* auto_shopUITests.swift */; };
 		432559362B66BEF800CA7267 /* auto_shopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559352B66BEF800CA7267 /* auto_shopUITestsLaunchTests.swift */; };
 		432559432B66C3F500CA7267 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 432559422B66C3F500CA7267 /* GoogleService-Info.plist */; };
+		432559472B66C59100CA7267 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559462B66C59100CA7267 /* SignupView.swift */; };
+		432559492B66C59900CA7267 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559482B66C59900CA7267 /* LoginView.swift */; };
+		4325594B2B66C59F00CA7267 /* MyqrcodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4325594A2B66C59F00CA7267 /* MyqrcodeView.swift */; };
+		4325594D2B66C5AC00CA7267 /* PaymentSetupNoticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4325594C2B66C5AC00CA7267 /* PaymentSetupNoticeView.swift */; };
+		4325594F2B66C5B100CA7267 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4325594E2B66C5B100CA7267 /* PaymentView.swift */; };
+		432559512B66C5B700CA7267 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559502B66C5B700CA7267 /* CartView.swift */; };
+		432559532B66C5BD00CA7267 /* ShareButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559522B66C5BD00CA7267 /* ShareButtonStyle.swift */; };
+		432559552B66C70700CA7267 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432559542B66C70700CA7267 /* OnboardingView.swift */; };
 		AE349AB3984804200E7B807D /* Pods_auto_shop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2CB9BBA8B336009F18CFEE /* Pods_auto_shop.framework */; };
 		B37C7DEE16A5D50D0A94AB9F /* Pods_auto_shop_auto_shopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C740AA1E0661AF2E3E6412B /* Pods_auto_shop_auto_shopUITests.framework */; };
 /* End PBXBuildFile section */
@@ -42,7 +49,6 @@
 		2B2CB9BBA8B336009F18CFEE /* Pods_auto_shop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_auto_shop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		432559152B66BEF700CA7267 /* auto-shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "auto-shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		432559182B66BEF700CA7267 /* auto_shopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_shopApp.swift; sourceTree = "<group>"; };
-		4325591A2B66BEF700CA7267 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4325591C2B66BEF800CA7267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4325591F2B66BEF800CA7267 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		432559252B66BEF800CA7267 /* auto-shopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "auto-shopTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +57,14 @@
 		432559332B66BEF800CA7267 /* auto_shopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_shopUITests.swift; sourceTree = "<group>"; };
 		432559352B66BEF800CA7267 /* auto_shopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_shopUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		432559422B66C3F500CA7267 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../Auto_Shop/iOS/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		432559462B66C59100CA7267 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignupView.swift; path = ../../Auto_Shop/iOS/AutoShop/SignupView.swift; sourceTree = "<group>"; };
+		432559482B66C59900CA7267 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../Auto_Shop/iOS/AutoShop/LoginView.swift; sourceTree = "<group>"; };
+		4325594A2B66C59F00CA7267 /* MyqrcodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyqrcodeView.swift; path = ../../Auto_Shop/iOS/AutoShop/MyqrcodeView.swift; sourceTree = "<group>"; };
+		4325594C2B66C5AC00CA7267 /* PaymentSetupNoticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentSetupNoticeView.swift; path = ../../Auto_Shop/iOS/AutoShop/PaymentSetupNoticeView.swift; sourceTree = "<group>"; };
+		4325594E2B66C5B100CA7267 /* PaymentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaymentView.swift; path = ../../Auto_Shop/iOS/AutoShop/PaymentView.swift; sourceTree = "<group>"; };
+		432559502B66C5B700CA7267 /* CartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartView.swift; path = ../../Auto_Shop/iOS/AutoShop/CartView.swift; sourceTree = "<group>"; };
+		432559522B66C5BD00CA7267 /* ShareButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareButtonStyle.swift; path = ../../Auto_Shop/iOS/AutoShop/ShareButtonStyle.swift; sourceTree = "<group>"; };
+		432559542B66C70700CA7267 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = ../../Auto_Shop/iOS/AutoShop/OnboardingView.swift; sourceTree = "<group>"; };
 		5BB955C3A6ADE81E842E095F /* Pods-auto-shop-auto-shopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auto-shop-auto-shopUITests.release.xcconfig"; path = "Target Support Files/Pods-auto-shop-auto-shopUITests/Pods-auto-shop-auto-shopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		61D199E1A8D9640310C190F4 /* Pods-auto-shopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-auto-shopTests.debug.xcconfig"; path = "Target Support Files/Pods-auto-shopTests/Pods-auto-shopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6461B2FDE5B5E399BFEDEFB7 /* Pods_auto_shopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_auto_shopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +129,14 @@
 			isa = PBXGroup;
 			children = (
 				432559182B66BEF700CA7267 /* auto_shopApp.swift */,
-				4325591A2B66BEF700CA7267 /* ContentView.swift */,
+				432559542B66C70700CA7267 /* OnboardingView.swift */,
+				432559462B66C59100CA7267 /* SignupView.swift */,
+				432559482B66C59900CA7267 /* LoginView.swift */,
+				4325594A2B66C59F00CA7267 /* MyqrcodeView.swift */,
+				4325594E2B66C5B100CA7267 /* PaymentView.swift */,
+				4325594C2B66C5AC00CA7267 /* PaymentSetupNoticeView.swift */,
+				432559502B66C5B700CA7267 /* CartView.swift */,
+				432559522B66C5BD00CA7267 /* ShareButtonStyle.swift */,
 				4325591C2B66BEF800CA7267 /* Assets.xcassets */,
 				4325591E2B66BEF800CA7267 /* Preview Content */,
 			);
@@ -409,8 +430,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4325591B2B66BEF700CA7267 /* ContentView.swift in Sources */,
+				4325594B2B66C59F00CA7267 /* MyqrcodeView.swift in Sources */,
+				432559472B66C59100CA7267 /* SignupView.swift in Sources */,
+				432559552B66C70700CA7267 /* OnboardingView.swift in Sources */,
+				4325594F2B66C5B100CA7267 /* PaymentView.swift in Sources */,
+				432559532B66C5BD00CA7267 /* ShareButtonStyle.swift in Sources */,
+				432559492B66C59900CA7267 /* LoginView.swift in Sources */,
 				432559192B66BEF700CA7267 /* auto_shopApp.swift in Sources */,
+				432559512B66C5B700CA7267 /* CartView.swift in Sources */,
+				4325594D2B66C5AC00CA7267 /* PaymentSetupNoticeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
